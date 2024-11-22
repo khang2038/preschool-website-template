@@ -52,7 +52,7 @@
             contentType: 'application/json',
             data: JSON.stringify(formData),
             success: function (data) {
-                if (data.success) {
+                if (data.messageEn === 'Success') {
                     Swal.fire({
                         icon: 'success',
                         title: 'Thành công!',
